@@ -1,0 +1,16 @@
+body{
+    background-color: #e4e4e4;
+}
+.container {
+    width: 620px;
+    margin: auto;
+    text-align: center;
+}
+
+#firstVideo{
+    width: 600px;
+}
+
+#secondVideo, #thirdVideo{
+    width: 298px;
+}
