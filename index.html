@@ -8,14 +8,51 @@
 </head>
 <body>
     <style>
-        .container{
-            width: 700px;
-            
+        .container {
+            width: 620px;
+            margin: auto;
+            text-align: center;
+        }
+
+        #firstVideo{
+            width: 600px;
+        }
+        .inner{
+            margin-left: 0px;
+            padding: 10px;
+        }
+        #secondVideo, #thirdVideo{
+            width: 298px;
         }
 
     </style>
+    
+
     <div class="container">
+        <div>
+            <h1>My Video Player</h1>
+        </div>
+        <div>
+            <video id="firstVideo" controls>
+                <source src="assets/videos/How he loves.mkv">
+            </video>
+        </div>
+
+        <div class="inner">
+            <a href="secondVideo.html">
+                <video id="secondVideo">
+                    <source src="assets/videos/How he loves.mkv">
+                </video>
+            </a>
+            <a href="thirdVideo.html">
+                <video id="thirdVideo">
+                    <source src="assets/videos/How he loves.mkv">
+                </video>
+            </a>
+        </div>
         
+  
+
     </div>
 </body>
 </html>
